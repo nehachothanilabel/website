@@ -15,12 +15,13 @@ import Product from "./pages/Product";
 import Women from "./pages/Women";
 
 const theme = customTheme;
+const baseName = process.env.PUBLIC_URL || "";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter>
+      <BrowserRouter basename={baseName}>
         <Routes>
           <Route index element={<Home />} />
           <Route path="website" element={<Home />} />
