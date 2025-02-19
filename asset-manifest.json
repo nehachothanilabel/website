@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.4152c3d3.css",
-    "main.js": "/website/static/js/main.a02dc2a5.js",
+    "main.js": "/website/static/js/main.6595d4b9.js",
     "static/media/goldenAccentsDress5.jpg": "/website/static/media/goldenAccentsDress5.a5d75d7b072798d23c2d.jpg",
     "static/media/goldenAccentsDress4.jpg": "/website/static/media/goldenAccentsDress4.d50a5ee133a8c847c605.jpg",
     "static/media/redFlowerDress1.jpg": "/website/static/media/redFlowerDress1.bfe5f79960703d3009a9.jpg",
@@ -79,10 +79,10 @@
     "static/media/logo.png": "/website/static/media/logo.2bc08bc3fa78ff188ba0.png",
     "index.html": "/website/index.html",
     "main.4152c3d3.css.map": "/website/static/css/main.4152c3d3.css.map",
-    "main.a02dc2a5.js.map": "/website/static/js/main.a02dc2a5.js.map"
+    "main.6595d4b9.js.map": "/website/static/js/main.6595d4b9.js.map"
   },
   "entrypoints": [
     "static/css/main.4152c3d3.css",
-    "static/js/main.a02dc2a5.js"
+    "static/js/main.6595d4b9.js"
   ]
 }
