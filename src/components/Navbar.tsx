@@ -31,7 +31,7 @@ export default function Navbar() {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Link href="/vishal">
+      <Link component={Button} onClick={() => navigate("/")}>
         <img
           src={Logo}
           alt="Logo"
@@ -43,7 +43,10 @@ export default function Navbar() {
       <List>
         {navItems.map((item) => (
           <ListItem key={item.title} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }} href={item.href}>
+            <ListItemButton
+              sx={{ textAlign: "center" }}
+              onClick={() => navigate(item.href)}
+            >
               <ListItemText primary={item.title} />
             </ListItemButton>
           </ListItem>
@@ -69,7 +72,8 @@ export default function Navbar() {
             NCL
           </Typography> */}
           <Link
-            href="/vishal"
+            component={Button}
+            onClick={() => navigate("/")}
             sx={{
               display: { xs: "none", sm: "flex" },
             }}

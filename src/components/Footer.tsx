@@ -7,10 +7,10 @@ import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
-import Typography from "@mui/material/Typography";
-import * as React from "react";
-import { socialLinks } from "../constants";
 import { useTheme } from "@mui/material/styles";
+import Typography from "@mui/material/Typography";
+import { useNavigate } from "react-router-dom";
+import { socialLinks } from "../constants";
 
 function Copyright() {
   return (
@@ -31,6 +31,7 @@ function Copyright() {
 
 export default function Footer() {
   const theme = useTheme();
+  const navigate = useNavigate();
   return (
     <Box
       sx={{
@@ -117,13 +118,25 @@ export default function Footer() {
             <Typography variant="body1" sx={{ fontWeight: "medium" }}>
               Product
             </Typography>
-            <Link color="text.secondary" variant="body2" href="/men">
+            <Link
+              color="text.secondary"
+              variant="body2"
+              onClick={() => navigate("/men")}
+            >
               Men
             </Link>
-            <Link color="text.secondary" variant="body2" href="/women">
+            <Link
+              color="text.secondary"
+              variant="body2"
+              onClick={() => navigate("/women")}
+            >
               Women
             </Link>
-            <Link color="text.secondary" variant="body2" href="/faq">
+            <Link
+              color="text.secondary"
+              variant="body2"
+              onClick={() => navigate("/faq")}
+            >
               FAQs
             </Link>
           </Box>
@@ -137,7 +150,11 @@ export default function Footer() {
             <Typography variant="body1" sx={{ fontWeight: "medium" }}>
               Company
             </Typography>
-            <Link color="text.secondary" variant="body2" href="/about">
+            <Link
+              color="text.secondary"
+              variant="body2"
+              onClick={() => navigate("/about")}
+            >
               About us
             </Link>
           </Box>
@@ -151,7 +168,11 @@ export default function Footer() {
             <Typography variant="body1" sx={{ fontWeight: "medium" }}>
               Legal
             </Typography>
-            <Link color="text.secondary" variant="body2" href="/contact">
+            <Link
+              color="text.secondary"
+              variant="body2"
+              onClick={() => navigate("/contact")}
+            >
               Contact
             </Link>
           </Box>
