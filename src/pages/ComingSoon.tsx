@@ -8,12 +8,13 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
-import * as React from "react";
+import Typography from "@mui/material/Typography";
+import { useNavigate } from "react-router-dom";
 import FloatingFollow from "../components/FloatingFollow";
 import { comingSoonItems, socialLinks } from "../constants";
-import Typography from "@mui/material/Typography";
 
 export default function ComingSoon() {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -43,7 +44,7 @@ export default function ComingSoon() {
           {comingSoonItems.map((item) => (
             <Button
               key={item.title}
-              href={item.href}
+              onClick={() => navigate(item.href)}
               size="large"
               sx={{ fontWeight: "bold" }}
               variant="outlined"

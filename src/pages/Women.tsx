@@ -4,12 +4,11 @@ import CardActionArea from "@mui/material/CardActionArea";
 import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid2";
 import Typography from "@mui/material/Typography";
-import React from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { womensCollection } from "../collectionData/womensCollection";
 import FloatingFollow from "../components/FloatingFollow";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { useLocation } from "react-router-dom";
 
 const useQuery = () => {
   return new URLSearchParams(useLocation().search);
@@ -18,6 +17,7 @@ const useQuery = () => {
 export default function Women() {
   const query = useQuery();
   const colorFilter = query.get("color");
+  const navigate = useNavigate();
 
   const filteredCollection = colorFilter
     ? womensCollection.filter(
@@ -41,7 +41,9 @@ export default function Women() {
                   height: "100%",
                 }}
               >
-                <CardActionArea href={`/product/${product.id}`}>
+                <CardActionArea
+                  onClick={() => navigate(`/product/${product.id}`)}
+                >
                   <CardMedia
                     component="img"
                     image={product.defaultImage}

@@ -4,11 +4,12 @@ import CardActionArea from "@mui/material/CardActionArea";
 import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid2";
 import Typography from "@mui/material/Typography";
-import * as React from "react";
+import { useNavigate } from "react-router-dom";
 import { favoriteItems } from "../constants";
 import { rgbaColors } from "../constants/colors";
 
 export default function Favorite() {
+  const navigate = useNavigate();
   return (
     <Box
       sx={{
@@ -25,7 +26,7 @@ export default function Favorite() {
           <Grid key={index} size={{ xs: 12, sm: 6, lg: 3 }}>
             <Card sx={{ height: "100%" }}>
               <CardActionArea
-                href={item.href}
+                onClick={() => navigate(item.href)}
                 sx={{
                   height: "100%",
                   display: "flex",

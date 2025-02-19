@@ -4,15 +4,16 @@ import Card from "@mui/material/Card";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import * as React from "react";
-import vdayImage from "../images/vDay.webp";
+import { useNavigate } from "react-router-dom";
 import { rgbaColors } from "../constants/colors";
+import vdayImage from "../images/vDay.webp";
 
 export default function MonthSpecial() {
+  const navigate = useNavigate();
   return (
     <Box sx={{ mt: { xs: 2, sm: 4 } }}>
       <Card sx={{ maxWidth: 2000 }}>
-        <CardActionArea href="/women?color=red">
+        <CardActionArea onClick={() => navigate("/women?color=red")}>
           <CardMedia
             sx={{ height: { xs: 400, md: 600 } }}
             image={vdayImage}

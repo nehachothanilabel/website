@@ -4,13 +4,14 @@ import CardActionArea from "@mui/material/CardActionArea";
 import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid2";
 import Typography from "@mui/material/Typography";
-import React from "react";
+import { useNavigate } from "react-router-dom";
 import { mensCollection } from "../collectionData/mensCollection";
 import FloatingFollow from "../components/FloatingFollow";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 export default function Men() {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -25,7 +26,9 @@ export default function Men() {
                   height: "100%",
                 }}
               >
-                <CardActionArea href={`/product/${product.id}`}>
+                <CardActionArea
+                  onClick={() => navigate(`/product/${product.id}`)}
+                >
                   <CardMedia
                     component="img"
                     image={product.defaultImage}

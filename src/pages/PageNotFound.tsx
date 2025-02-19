@@ -12,8 +12,10 @@ import * as React from "react";
 import FloatingFollow from "../components/FloatingFollow";
 import { pageNotFoundItems, socialLinks } from "../constants";
 import Typography from "@mui/material/Typography";
+import { useNavigate } from "react-router-dom";
 
 export default function PageNotFound() {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -46,7 +48,7 @@ export default function PageNotFound() {
           {pageNotFoundItems.map((item) => (
             <Button
               key={item.title}
-              href={item.href}
+              onClick={() => navigate(item.href)}
               size="large"
               sx={{ fontWeight: "bold" }}
               variant="outlined"

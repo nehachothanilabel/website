@@ -9,8 +9,10 @@ import { kidsCollection } from "../collectionData/kidsCollection";
 import FloatingFollow from "../components/FloatingFollow";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { useNavigate } from "react-router-dom";
 
 export default function Kids() {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -25,7 +27,9 @@ export default function Kids() {
                   height: "100%",
                 }}
               >
-                <CardActionArea href={`/product/${product.id}`}>
+                <CardActionArea
+                  onClick={() => navigate(`/product/${product.id}`)}
+                >
                   <CardMedia
                     component="img"
                     image={product.defaultImage}
