@@ -14,7 +14,7 @@ import ListItemText from "@mui/material/ListItemText";
 import { useTheme } from "@mui/material/styles";
 import Toolbar from "@mui/material/Toolbar";
 import * as React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { navItems } from "../constants";
 import Logo from "../images/logo.png";
 
@@ -27,10 +27,11 @@ export default function Navbar() {
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
+  const navigate = useNavigate();
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Link href="/website2">
+      <Link href="/vishal">
         <img
           src={Logo}
           alt="Logo"
@@ -68,7 +69,7 @@ export default function Navbar() {
             NCL
           </Typography> */}
           <Link
-            href="/"
+            href="/vishal"
             sx={{
               display: { xs: "none", sm: "flex" },
             }}
@@ -80,7 +81,7 @@ export default function Navbar() {
             {navItems.map((item) => (
               <Button
                 key={item.title}
-                href={item.href}
+                onClick={() => navigate(item.href)}
                 variant="outlined"
                 sx={{
                   fontWeight: "bold",
