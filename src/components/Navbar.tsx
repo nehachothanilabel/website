@@ -30,7 +30,7 @@ export default function Navbar() {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Link href="/website">
+      <Link href="/website3">
         <img
           src={Logo}
           alt="Logo"
