@@ -9,6 +9,7 @@ import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import React, { useState } from "react";
+import { useSwipeable } from "react-swipeable";
 import { colors } from "../constants/colors";
 
 const ProductViewMobile = ({ product }) => {
@@ -27,6 +28,12 @@ const ProductViewMobile = ({ product }) => {
     );
   };
 
+  const swipeHandlers = useSwipeable({
+    onSwipedLeft: handleNext,
+    onSwipedRight: handlePrev,
+    trackMouse: true,
+  });
+
   return (
     <Box
       sx={{
@@ -40,8 +47,8 @@ const ProductViewMobile = ({ product }) => {
           position: "relative",
         }}
       >
-        {/* Images */}
         <Box
+          {...swipeHandlers}
           sx={{
             display: "flex",
             transform: `translateX(-${currentIndex * 100}%)`,
@@ -60,7 +67,6 @@ const ProductViewMobile = ({ product }) => {
           ))}
         </Box>
 
-        {/* Left Arrow */}
         <IconButton
           sx={{
             position: "absolute",
@@ -73,7 +79,6 @@ const ProductViewMobile = ({ product }) => {
           <KeyboardDoubleArrowLeftIcon color="primary" fontSize="large" />
         </IconButton>
 
-        {/* Right Arrow */}
         <IconButton
           sx={{
             position: "absolute",
@@ -118,10 +123,6 @@ const ProductViewMobile = ({ product }) => {
           <Typography variant="h6" fontWeight="bold">
             {product.title}
           </Typography>
-          {/* TODO PRICE FOR LATER */}
-          {/* <Typography variant="h6" fontWeight="bold">
-            {product.price}
-          </Typography> */}
         </Box>
 
         <Box sx={{ my: 3 }}>

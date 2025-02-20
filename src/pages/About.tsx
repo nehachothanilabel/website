@@ -3,11 +3,11 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid2";
 import Typography from "@mui/material/Typography";
-import * as React from "react";
 import FloatingFollow from "../components/FloatingFollow";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import aboutUsImage from "../images/about.webp";
+import nehaImage from "../images/dress/redFlowerDress1.jpg";
 
 export default function About() {
   return (
@@ -95,7 +95,7 @@ export default function About() {
           <Card>
             <CardMedia
               component="img"
-              image={aboutUsImage}
+              image={nehaImage}
               alt="Fashion Boutique"
               sx={{ objectFit: "cover", height: "100%" }}
             />
@@ -147,9 +147,9 @@ export default function About() {
           <Card>
             <CardMedia
               component="img"
-              image={aboutUsImage}
+              image={nehaImage}
               alt="Fashion Boutique"
-              sx={{ objectFit: "cover", height: "100%" }}
+              sx={{ objectFit: "cover", height: "100%", maxHeight: "600px" }}
             />
           </Card>
         </Grid>
