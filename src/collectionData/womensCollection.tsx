@@ -1,82 +1,82 @@
-import blackGoldenDress1 from "../images/dress/blackGoldenDress1.jpg";
-import blackGoldenDress2 from "../images/dress/blackGoldenDress2.jpg";
-import blackGoldenDress3 from "../images/dress/blackGoldenDress3.jpg";
-import blackGoldenDress4 from "../images/dress/blackGoldenDress4.jpg";
+import blackGoldenDress1 from "../images/dress/blackGoldenDress1.webp";
+import blackGoldenDress2 from "../images/dress/blackGoldenDress2.webp";
+import blackGoldenDress3 from "../images/dress/blackGoldenDress3.webp";
+import blackGoldenDress4 from "../images/dress/blackGoldenDress4.webp";
 
-import blackMultiColor1 from "../images/dress/blackMultiColor1.jpg";
-import blackMultiColor2 from "../images/dress/blackMultiColor2.jpg";
-import blackMultiColor3 from "../images/dress/blackMultiColor3.jpg";
-import blackMultiColor4 from "../images/dress/blackMultiColor4.jpg";
+import blackMultiColor1 from "../images/dress/blackMultiColor1.webp";
+import blackMultiColor2 from "../images/dress/blackMultiColor2.webp";
+import blackMultiColor3 from "../images/dress/blackMultiColor3.webp";
+import blackMultiColor4 from "../images/dress/blackMultiColor4.webp";
 
-import blueBlackDress1 from "../images/dress/blueBlackDress1.jpg";
-import blueBlackDress2 from "../images/dress/blueBlackDress2.jpg";
-import blueBlackDress3 from "../images/dress/blueBlackDress3.jpg";
-import blueBlackDress4 from "../images/dress/blueBlackDress4.jpg";
+import blueBlackDress1 from "../images/dress/blueBlackDress1.webp";
+import blueBlackDress2 from "../images/dress/blueBlackDress2.webp";
+import blueBlackDress3 from "../images/dress/blueBlackDress3.webp";
+import blueBlackDress4 from "../images/dress/blueBlackDress4.webp";
 
-import blueConstrastDress1 from "../images/dress/blueConstrastDress1.jpg";
-import blueConstrastDress2 from "../images/dress/blueConstrastDress2.jpg";
-import blueConstrastDress3 from "../images/dress/blueConstrastDress3.jpg";
-import blueConstrastDress4 from "../images/dress/blueConstrastDress4.jpg";
+import blueConstrastDress1 from "../images/dress/blueConstrastDress1.webp";
+import blueConstrastDress2 from "../images/dress/blueConstrastDress2.webp";
+import blueConstrastDress3 from "../images/dress/blueConstrastDress3.webp";
+import blueConstrastDress4 from "../images/dress/blueConstrastDress4.webp";
 
-import blueDay1 from "../images/dress/blueDay1.jpg";
-import blueDay2 from "../images/dress/blueDay2.jpg";
-import blueDay3 from "../images/dress/blueDay3.jpg";
-import blueDay4 from "../images/dress/blueDay4.jpg";
+import blueDay1 from "../images/dress/blueDay1.webp";
+import blueDay2 from "../images/dress/blueDay2.webp";
+import blueDay3 from "../images/dress/blueDay3.webp";
+import blueDay4 from "../images/dress/blueDay4.webp";
 
-import blueDressGoldenFlower1 from "../images/dress/blueDressGoldenFlower1.jpg";
-import blueDressGoldenFlower2 from "../images/dress/blueDressGoldenFlower2.jpg";
-import blueDressGoldenFlower3 from "../images/dress/blueDressGoldenFlower3.jpg";
-import blueDressGoldenFlower4 from "../images/dress/blueDressGoldenFlower4.jpg";
-import blueDressGoldenFlower5 from "../images/dress/blueDressGoldenFlower5.jpg";
-import blueDressGoldenFlower6 from "../images/dress/blueDressGoldenFlower6.jpg";
-import blueDressGoldenFlower7 from "../images/dress/blueDressGoldenFlower7.jpg";
+import blueDressGoldenFlower1 from "../images/dress/blueDressGoldenFlower1.webp";
+import blueDressGoldenFlower2 from "../images/dress/blueDressGoldenFlower2.webp";
+import blueDressGoldenFlower3 from "../images/dress/blueDressGoldenFlower3.webp";
+import blueDressGoldenFlower4 from "../images/dress/blueDressGoldenFlower4.webp";
+import blueDressGoldenFlower5 from "../images/dress/blueDressGoldenFlower5.webp";
+import blueDressGoldenFlower6 from "../images/dress/blueDressGoldenFlower6.webp";
+import blueDressGoldenFlower7 from "../images/dress/blueDressGoldenFlower7.webp";
 
-import goldenAccentsDress1 from "../images/dress/goldenAccentsDress1.jpg";
-import goldenAccentsDress2 from "../images/dress/goldenAccentsDress2.jpg";
-import goldenAccentsDress3 from "../images/dress/goldenAccentsDress3.jpg";
-import goldenAccentsDress4 from "../images/dress/goldenAccentsDress4.jpg";
-import goldenAccentsDress5 from "../images/dress/goldenAccentsDress5.jpg";
-import goldenAccentsDress6 from "../images/dress/goldenAccentsDress6.jpg";
-import goldenAccentsDress7 from "../images/dress/goldenAccentsDress7.jpg";
-import goldenAccentsDress8 from "../images/dress/goldenAccentsDress8.jpg";
+import goldenAccentsDress1 from "../images/dress/goldenAccentsDress1.webp";
+import goldenAccentsDress2 from "../images/dress/goldenAccentsDress2.webp";
+import goldenAccentsDress3 from "../images/dress/goldenAccentsDress3.webp";
+import goldenAccentsDress4 from "../images/dress/goldenAccentsDress4.webp";
+import goldenAccentsDress5 from "../images/dress/goldenAccentsDress5.webp";
+import goldenAccentsDress6 from "../images/dress/goldenAccentsDress6.webp";
+import goldenAccentsDress7 from "../images/dress/goldenAccentsDress7.webp";
+import goldenAccentsDress8 from "../images/dress/goldenAccentsDress8.webp";
 
-import goldenDressRedDupata1 from "../images/dress/goldenDressRedDupata1.jpg";
-import goldenDressRedDupata2 from "../images/dress/goldenDressRedDupata2.jpg";
-import goldenDressRedDupata3 from "../images/dress/goldenDressRedDupata3.jpg";
-import goldenDressRedDupata4 from "../images/dress/goldenDressRedDupata4.jpg";
+import goldenDressRedDupata1 from "../images/dress/goldenDressRedDupata1.webp";
+import goldenDressRedDupata2 from "../images/dress/goldenDressRedDupata2.webp";
+import goldenDressRedDupata3 from "../images/dress/goldenDressRedDupata3.webp";
+import goldenDressRedDupata4 from "../images/dress/goldenDressRedDupata4.webp";
 
-import greenDressGoldAccents1 from "../images/dress/greenDressGoldAccents1.jpg";
-import greenDressGoldAccents2 from "../images/dress/greenDressGoldAccents2.jpg";
-import greenDressGoldAccents3 from "../images/dress/greenDressGoldAccents3.jpg";
-import greenDressGoldAccents4 from "../images/dress/greenDressGoldAccents4.jpg";
-import greenDressGoldAccents5 from "../images/dress/greenDressGoldAccents5.jpg";
+import greenDressGoldAccents1 from "../images/dress/greenDressGoldAccents1.webp";
+import greenDressGoldAccents2 from "../images/dress/greenDressGoldAccents2.webp";
+import greenDressGoldAccents3 from "../images/dress/greenDressGoldAccents3.webp";
+import greenDressGoldAccents4 from "../images/dress/greenDressGoldAccents4.webp";
+import greenDressGoldAccents5 from "../images/dress/greenDressGoldAccents5.webp";
 
-import purpleWithGlitter1 from "../images/dress/purpleWithGlitter1.jpg";
-import purpleWithGlitter2 from "../images/dress/purpleWithGlitter2.jpg";
-import purpleWithGlitter3 from "../images/dress/purpleWithGlitter3.jpg";
-import purpleWithGlitter4 from "../images/dress/purpleWithGlitter4.jpg";
-import purpleWithGlitter5 from "../images/dress/purpleWithGlitter5.jpg";
+import purpleWithGlitter1 from "../images/dress/purpleWithGlitter1.webp";
+import purpleWithGlitter2 from "../images/dress/purpleWithGlitter2.webp";
+import purpleWithGlitter3 from "../images/dress/purpleWithGlitter3.webp";
+import purpleWithGlitter4 from "../images/dress/purpleWithGlitter4.webp";
+import purpleWithGlitter5 from "../images/dress/purpleWithGlitter5.webp";
 
-import redDressGoldAccents1 from "../images/dress/redDressGoldAccents1.jpg";
-import redDressGoldAccents2 from "../images/dress/redDressGoldAccents2.jpg";
-import redDressGoldAccents3 from "../images/dress/redDressGoldAccents3.jpg";
-import redDressGoldAccents4 from "../images/dress/redDressGoldAccents4.jpg";
-import redDressGoldAccents5 from "../images/dress/redDressGoldAccents5.jpg";
-import redDressGoldAccents6 from "../images/dress/redDressGoldAccents6.jpg";
-import redDressGoldAccents7 from "../images/dress/redDressGoldAccents7.jpg";
+import redDressGoldAccents1 from "../images/dress/redDressGoldAccents1.webp";
+import redDressGoldAccents2 from "../images/dress/redDressGoldAccents2.webp";
+import redDressGoldAccents3 from "../images/dress/redDressGoldAccents3.webp";
+import redDressGoldAccents4 from "../images/dress/redDressGoldAccents4.webp";
+import redDressGoldAccents5 from "../images/dress/redDressGoldAccents5.webp";
+import redDressGoldAccents6 from "../images/dress/redDressGoldAccents6.webp";
+import redDressGoldAccents7 from "../images/dress/redDressGoldAccents7.webp";
 
-import redFlowerDress1 from "../images/dress/redFlowerDress1.jpg";
-import redFlowerDress2 from "../images/dress/redFlowerDress2.jpg";
-import redFlowerDress3 from "../images/dress/redFlowerDress3.jpg";
+import redFlowerDress1 from "../images/dress/redFlowerDress1.webp";
+import redFlowerDress2 from "../images/dress/redFlowerDress2.webp";
+import redFlowerDress3 from "../images/dress/redFlowerDress3.webp";
 
-import redGoldenBlouseDress1 from "../images/dress/redGoldenBlouseDress1.jpg";
-import redGoldenBlouseDress2 from "../images/dress/redGoldenBlouseDress2.jpg";
-import redGoldenBlouseDress3 from "../images/dress/redGoldenBlouseDress3.jpg";
-import redGoldenBlouseDress4 from "../images/dress/redGoldenBlouseDress4.jpg";
-import redGoldenBlouseDress5 from "../images/dress/redGoldenBlouseDress5.jpg";
-import redGoldenBlouseDress6 from "../images/dress/redGoldenBlouseDress6.jpg";
-import redGoldenBlouseDress7 from "../images/dress/redGoldenBlouseDress7.jpg";
-import redGoldenBlouseDress8 from "../images/dress/redGoldenBlouseDress8.jpg";
+import redGoldenBlouseDress1 from "../images/dress/redGoldenBlouseDress1.webp";
+import redGoldenBlouseDress2 from "../images/dress/redGoldenBlouseDress2.webp";
+import redGoldenBlouseDress3 from "../images/dress/redGoldenBlouseDress3.webp";
+import redGoldenBlouseDress4 from "../images/dress/redGoldenBlouseDress4.webp";
+import redGoldenBlouseDress5 from "../images/dress/redGoldenBlouseDress5.webp";
+import redGoldenBlouseDress6 from "../images/dress/redGoldenBlouseDress6.webp";
+import redGoldenBlouseDress7 from "../images/dress/redGoldenBlouseDress7.webp";
+import redGoldenBlouseDress8 from "../images/dress/redGoldenBlouseDress8.webp";
 
 export const womensCollection = [
   {

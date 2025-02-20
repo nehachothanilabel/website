@@ -7,7 +7,7 @@ import FloatingFollow from "../components/FloatingFollow";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import aboutUsImage from "../images/about.webp";
-import nehaImage from "../images/dress/redFlowerDress1.jpg";
+import nehaImage from "../images/dress/redFlowerDress1.webp";
 
 export default function About() {
   return (

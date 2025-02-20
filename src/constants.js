@@ -6,10 +6,10 @@ import StyleIcon from "@mui/icons-material/Style";
 import SupportAgentRoundedIcon from "@mui/icons-material/SupportAgentRounded";
 import Avatar from "@mui/material/Avatar";
 import { colors } from "./constants/colors";
-import blueDressGoldenFlower4 from "./images/dress/blueDressGoldenFlower4.jpg";
-import goldenAccentsDress4 from "./images/dress/goldenAccentsDress4.jpg";
-import greenDressGoldAccents3 from "./images/dress/greenDressGoldAccents3.jpg";
-import redGoldenBlouseDress3 from "./images/dress/redGoldenBlouseDress3.jpg";
+import blueDressGoldenFlower4 from "./images/dress/blueDressGoldenFlower4.webp";
+import goldenAccentsDress4 from "./images/dress/goldenAccentsDress4.webp";
+import greenDressGoldAccents3 from "./images/dress/greenDressGoldAccents3.webp";
+import redGoldenBlouseDress3 from "./images/dress/redGoldenBlouseDress3.webp";
 
 export const socialLinks = {
   facebook: "https://www.facebook.com/nehachothanilabel",
